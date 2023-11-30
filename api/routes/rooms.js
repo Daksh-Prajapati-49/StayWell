@@ -19,7 +19,6 @@ roomsRouter.put("/:id", verifyAdmin, updateRoom);
 //DELETE
 roomsRouter.delete("/:id/:hotelid", verifyAdmin, deleteRoom);
 //GET
-
 roomsRouter.get("/:id", getRoom);
 //GET ALL
 

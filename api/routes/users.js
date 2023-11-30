@@ -9,6 +9,8 @@ const { verifyAdmin, verifyToken, verifyUser } = require("../utils/verifyToken.j
 
 const usersRouter = express.Router();
 
+
+
 //UPDATE
 usersRouter.put("/:id", verifyUser, updateUser);
 

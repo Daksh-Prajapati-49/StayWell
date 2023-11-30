@@ -14,6 +14,7 @@ const {
 const { verifyAdmin } = require("../utils/verifyToken.js");
 const hotelRouter = express.Router();
 
+
 //CREATE
 hotelRouter.post("/", verifyAdmin, createHotel);
 
